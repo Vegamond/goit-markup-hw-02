@@ -1,0 +1,13 @@
+:root {
+    --header-text-color: #fd0000;
+    --first-btn-color: #1bf713;
+    --second-btn-color: #303030;
+    --first-title-color: #dceb13;
+    --second-title-color: #303030;
+    --first-text-color: #050520;
+    --accent-color: #1100ff;
+}
+
+body {
+    font-family: "Roboto", roboto;
+}
