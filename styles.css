@@ -18,7 +18,7 @@ body {
 }
 
 
-/*Утиліта*/
+/*общее*/
 
 .list {
     list-style: none;
@@ -33,7 +33,7 @@ body {
 }
 
 
-/*Logo*/
+/*Logo header*/
 
 .logo {
     color: var(--title-text-color);
@@ -105,7 +105,7 @@ body {
 }
 
 
-/*Кнопки*/
+/*Кнопка главной*/
 
 .hero-btn {
     color: var(--primary-white-color);
@@ -180,7 +180,7 @@ body {
 }
 
 
-/*What We Do*/
+/*Специализация*/
 
 .spec-title {
     font-weight: bold;
@@ -227,9 +227,6 @@ body {
 
 /*Footer*/
 
-
-/*От тут напевно неправильно Можливо це мало бути зверху загально для всіх але поки так*/
-
 .footer {
     color: var(--footer-address-color);
 }
@@ -263,9 +260,6 @@ body {
     color: var(--accent-color);
 }
 
-
-/*Можливо так треба можливо ні поки лишу так як є*/
-
 .footer .link.adres:hover,
 .footer .link.adres:focus,
 .footer .link.tel:hover,
@@ -298,7 +292,7 @@ body {
 }
 
 
-/*Портфолио Portfolio Style*/
+/*Портфолио*/
 
 .product-list {
     list-style-type: none;
