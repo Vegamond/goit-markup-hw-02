@@ -155,7 +155,6 @@ body {
 
 .title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -173,6 +172,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: var(--primary-text-color);
+    text-align: center;
 }
 
 .descr-item {
@@ -308,6 +308,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .present-btn {
