@@ -121,6 +121,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-bg-color);
   font-family: inherit;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -299,11 +300,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.present-btn.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
 .present-btn {
   padding: 6px 22px;
   line-height: 1.62;
@@ -311,6 +307,11 @@ body {
   color: var(--title-text-color);
   font-family: inherit;
   border-radius: 4px;
+  cursor: pointer;
+}
+.present-btn.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .present-btn:hover,
@@ -324,11 +325,11 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .product-item {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   width: 320px;
   border: 1px solid #eeeeee;
 }
